@@ -1,22 +1,22 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
+import { IonContent, IonPage, } from '@ionic/react';
+
 import './Tab2.css';
 
 const Tab2: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Tab 2</IonTitle>
-        </IonToolbar>
-      </IonHeader>
+
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Tab 2</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer name="Tab 2 page" />
+        <img alt="" src="./assets/我的大学.jpg"></img>
+        <div className="under">
+          <img alt="" src="./assets/我的大学.jpg"></img>
+        </div>
+        <a href="/tab3">
+          <div className="qingjia" ></div>
+        </a>
+        <a href="/tab1">
+          <div className="back"></div>
+        </a>
       </IonContent>
     </IonPage>
   );
