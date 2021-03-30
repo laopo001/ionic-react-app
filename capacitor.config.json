@@ -1,6 +1,6 @@
 {
   "appId": "io.ionic.starter",
-  "appName": "app",
+  "appName": "今日校园",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "build",
