@@ -1,0 +1,24 @@
+ion-tab-bar {
+    display: none;
+}
+
+.under{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 3.1rem;
+    overflow: hidden;
+}
+.under img{
+    position: relative;
+    top: 3.1rem;
+    transform: translateY(-100%);
+}
+
+.back{
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
